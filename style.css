@@ -176,7 +176,50 @@ span{
     font-size: 2rem;
     margin: 2rem  0  3rem;
 }
+.experience {
+    padding: 10rem 9% 2rem;
+}
 
+.experience-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.experience-box {
+    background: var(--second-bg-color);
+    text-align: left;
+    padding: 2rem;
+    border: .2rem solid var(--second-bg-color);
+    flex: 2 2 45rem;
+    border-radius: 3rem;
+    transition: .5s ease;
+}
+
+.experience-box h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.experience-box p {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.experience-box ul {
+    list-style-type: none;
+}
+
+.experience-box ul li {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+.skill{
+    padding: 10rem 9% 2rem; 
+    background: var(--second-bg-color);
+}
 .skill h2{
     margin-bottom: 5rem;
 }
@@ -190,7 +233,7 @@ span{
 
 .skill-container .skill-box {
     flex: 2  2  45rem;
-    background: var(--second-bg-color);
+    background: rgb(31, 36, 45);
     padding: 1.5rem 1rem 1.5rem;
     border-radius: 3rem;
     text-align: center;
@@ -216,7 +259,6 @@ span{
 
 .education {
     padding: 10rem 9% 2rem;
-    background: var(--second-bg-color);
 }
 
 .education-container {
@@ -229,10 +271,10 @@ span{
 }
 
 .education-box {
-    background: rgb(31, 36, 45);
+    background: var(--second-bg-color);
     text-align: center;
     padding: 1.5rem 1rem 1.5rem;  
-    border: .2rem solid rgb(31, 36, 45);
+    border: .2rem solid var(--second-bg-color);
     flex: 2  2  45rem;
     border-radius: 3rem;
     transition: .5s ease;
@@ -328,9 +370,11 @@ span{
     font-size: 2rem;
     color: var(--second-bg-color);
 } */
+.Contact{
+    background: var(--second-bg-color);
+}
 .Contact h2 {
   margin-bottom: 3rem; 
-    
     
 }
 
@@ -353,7 +397,7 @@ span{
     padding: 1.5rem;
     font-size:1.6rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
+    background: rgb(31, 36, 45);
     border-radius: .8rem;
     margin: .7rem 0;
 }
@@ -375,7 +419,7 @@ span{
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    /* background: var(--second-bg-color); */
 }
 
 .footer-text p{
